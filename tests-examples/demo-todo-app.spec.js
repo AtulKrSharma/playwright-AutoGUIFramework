@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-check // this the comment
 const { test, expect } = require('@playwright/test');
 
 test.beforeEach(async ({ page }) => {

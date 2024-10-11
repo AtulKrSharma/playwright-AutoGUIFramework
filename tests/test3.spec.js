@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Learn assertions @assertions_group", () => {
-  test("Verify web page behavior @smoke", async ({ page }) => {
+  test("Verify web page behavior @smokes", async ({ page }) => {
     await page.goto("https://the-internet.herokuapp.com/");
 
     // 1. to have URL
@@ -11,7 +11,7 @@ test.describe("Learn assertions @assertions_group", () => {
     await expect(page).toHaveTitle("The Internet");
   });
 
-  test("Continues with assertions", async ({ page }) => {
+  test("Continues with assertions @fultu", async ({ page }) => {
     await page.goto("https://the-internet.herokuapp.com/");
 
     // 3. assert visibility

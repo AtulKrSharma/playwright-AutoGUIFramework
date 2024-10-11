@@ -2,7 +2,11 @@
   "name": "playwright-autoframework",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:smokes":"npx playwright test --grep @smokes",
+    "test:fullTest":"npx playwright test --grep @smokes && npx playwright test --grep @fultu"
+ 
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

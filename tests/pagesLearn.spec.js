@@ -49,7 +49,7 @@ test.describe("describe block for hooks", () => {
     expect(checkbox).toBe(false);
   });
 
-  test.only("Geolocation setting in context and verification", async () => {
+  test("Geolocation setting in context and verification", async () => {
     context = await browser.newContext({
       permissions: ["geolocation"],
       geolocation: { latitude: 37.774929, longitude: -122.419416 },
